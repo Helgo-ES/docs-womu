@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Mintlify Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#004ce2",
+    "light": "#004ce2",
+    "dark": "#004ce2"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -34,8 +34,9 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/white.png",
+    "dark": "/images/blue.png",
+    "href": "https://womu.es/"
   },
   "navbar": {
     "links": [
@@ -64,9 +65,13 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/alperdevv"
     }
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "api": {
+    "openapi": "openapi.json"
   }
 }
